@@ -1,0 +1,79 @@
+.AccountsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.blurred {
+    filter: blur(5px);
+}
+
+.AccountsHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 2.5rem;
+}
+
+.AdicionarAccount {
+    margin-left: auto;
+    margin-right: 5rem;
+    background-color: #E6A101;
+    color: #3C3628;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: .5rem 1.5rem;
+    border-radius: .6rem;
+    transition: .3s;
+}
+
+.AdicionarAccount:hover {
+    background-color: #BB8C1F;
+    color: #3C3628;
+}
+
+.AccountsTitle {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #33302B;
+}
+
+.AccountsList {
+    margin: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: top;
+    gap: 2rem;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    margin-top: 18rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.modal {
+    width: 30%;
+    height: 60%;
+    background-color: #393939;
+    border-radius: 0.5rem;
+    z-index: 3;
+}

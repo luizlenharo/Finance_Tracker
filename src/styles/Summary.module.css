@@ -1,0 +1,13 @@
+.SummaryTitle {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.SummaryContent {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: center;
+    gap: 1rem;
+}

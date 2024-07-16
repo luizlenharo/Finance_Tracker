@@ -1,0 +1,127 @@
+{
+  "total_balance": [
+    {
+      "total": 2050,
+      "expenses": 745,
+      "incomes": 50,
+      "id": "1"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "1",
+      "type": "expense",
+      "amount": 60,
+      "account": "Nubank",
+      "category": "Food",
+      "date": "2024-06-05"
+    },
+    {
+      "id": "2",
+      "type": "expense",
+      "amount": 20,
+      "account": "Inter",
+      "category": "Transport",
+      "date": "2024-06-16"
+    },
+    {
+      "id": "3",
+      "type": "expense",
+      "amount": 120,
+      "account": "Nubank",
+      "category": "Entertainment",
+      "date": "2024-07-07"
+    },
+    {
+      "id": "4",
+      "type": "expense",
+      "amount": 160,
+      "account": "Itau",
+      "category": "Shopping",
+      "date": "2024-07-15"
+    },
+    {
+      "id": "5",
+      "type": "expense",
+      "amount": 80,
+      "account": "Inter",
+      "category": "Food",
+      "date": "2024-07-25"
+    },
+    {
+      "id": "6",
+      "type": "expense",
+      "amount": 15,
+      "account": "Nubank",
+      "category": "Transport",
+      "date": "2024-08-05"
+    },
+    {
+      "id": "7",
+      "type": "expense",
+      "amount": 90,
+      "account": "Itau",
+      "category": "Entertainment",
+      "date": "2024-08-15"
+    },
+    {
+      "id": "73f4",
+      "type": "income",
+      "amount": "50",
+      "account": "Nubank",
+      "category": "Pix",
+      "date": "2024-07-16"
+    }
+  ],
+  "bank_accounts": [
+    {
+      "name": "Nubank",
+      "balance": null,
+      "incomes": null,
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Inter",
+      "balance": 350,
+      "expenses": 100,
+      "incomes": 0
+    },
+    {
+      "id": "3",
+      "name": "Itau",
+      "balance": 810,
+      "expenses": 210,
+      "incomes": 0
+    },
+    {
+      "id": "4983",
+      "name": "Banco do Brasil",
+      "balance": "340",
+      "expenses": 0,
+      "incomes": 0
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Food",
+      "total": "140"
+    },
+    {
+      "id": "2",
+      "name": "Transport",
+      "total": "35"
+    },
+    {
+      "id": "3",
+      "name": "Entertainment",
+      "total": "210"
+    },
+    {
+      "id": "4",
+      "name": "Shopping",
+      "total": "160"
+    }
+  ]
+}

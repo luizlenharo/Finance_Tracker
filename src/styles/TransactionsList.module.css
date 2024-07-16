@@ -1,0 +1,45 @@
+.TransactionsList {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: .5rem;
+}
+
+.TransactionsListItens {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    color: #3C3628;
+}
+
+.TransactionsListText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: -5px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    border-top: 1px solid #33302B;
+    padding-top: 10px;
+}
+
+.TransactionsListTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #3C3628;
+}
+
+.TransactionsListAmount {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #E6A101;
+}

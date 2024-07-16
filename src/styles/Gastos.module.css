@@ -1,0 +1,45 @@
+.Gastos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.GastosHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+.AdicionarGasto {
+    margin-left: auto;
+    margin-right: 5rem;
+    background-color: #917430;
+    color: #3C3628;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: .5rem 1.5rem;
+    border-radius: .6rem;
+    transition: .3s;
+}
+
+.AdicionarGasto:hover {
+    background-color: #BB8C1F;
+    color: #3C3628;
+}
+
+
+.GastosTitle {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #33302B;
+}

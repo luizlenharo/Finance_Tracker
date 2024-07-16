@@ -1,0 +1,85 @@
+.BalanceContainer {
+    display: flex;
+    flex-direction: column;
+    width: 21%;
+    height: 25rem;
+    border-right: 1px solid #33302B;
+    padding-right: 1.3rem;
+}
+
+.BalanceTitle {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.GeralContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem 1rem;
+    background-color: #828282;
+    border-radius: 0.5rem;
+}
+
+.TotalContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.ContainerTitle {
+    font-weight: 600;
+    color: #33302B;
+}
+
+.TotalValue {
+    font-size: 2.2rem;
+    font-weight:700;
+    color: #E6A101;
+}
+
+.IncomesExpenses {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.IncomesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1.5rem;
+    gap: .5rem;
+    border-right: 1px solid #33302B;
+}
+
+.IncomesValue {
+    font-size: 1.6rem;
+    font-weight:700;
+    color: #33302B;
+}
+
+.ExpensesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1.5rem;
+    gap: .5rem;
+}
+
+.ExpensesValue {
+    font-size: 1.6rem;
+    font-weight:700;
+    color: #33302B;
+}
